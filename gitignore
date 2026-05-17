@@ -1,0 +1,40 @@
+---
+
+# `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Kubernetes
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.tar
+
+# Build
+dist/
+build/
+
+# Secrets
+secrets.yaml
