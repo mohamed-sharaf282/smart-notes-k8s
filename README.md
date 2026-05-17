@@ -58,17 +58,17 @@ PostgreSQL Database
 
 smart-notes-k8s/
 
-├── backend/
+─ backend/
 │   ├── app.py
 │   ├── requirements.txt
 │   └── Dockerfile
 │
-├── frontend/
+── frontend/
 │   ├── src/
 │   ├── package.json
 │   └── Dockerfile
 │
-├── k8s/
+ k8s/
 │   ├── namespace.yaml
 │   ├── configmap.yaml
 │   ├── secret.yaml
@@ -81,11 +81,11 @@ smart-notes-k8s/
 │   ├── hpa.yaml
 │   └── pvc.yaml
 │
-├── screenshots/
+── screenshots/
 │
-├── README.md
+─ README.md
 │
-└── .gitignore
+ .gitignore
 
 ---
 
